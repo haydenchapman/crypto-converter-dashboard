@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightskyblue;
+}
+
+.app-wrapper {
+  display: flex;
+}
+
+.news-feed {
+  background-color: rgb(204, 204, 231);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 420px;
+}
+
+.currency-converter {
+  background-color: rgb(200, 223, 221);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+}
+
+.exchange-rate {
+  align-items: center;
+  background-color: rgb(200, 267, 288);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.input-box{
+  background-color: rgb(218, 227, 238);
+  border-color: coral;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+button{
+  border: none;
+  float: right;
+  margin: 4px;
+
+}
+
+button:hover{
+  background-color: coral;
+}
+
+input,select{
+  border: 1px;
+}
+
+
