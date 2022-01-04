@@ -51,4 +51,4 @@ app.get('/news', (req,res) => {
         console.error(error)
     })
 })
-app.listen(8000 || 3001, () => console.log(`Server is running on port ${PORT}`))
+app.listen(process.env.PORT || 3000, () => console.log(`Server is running on port ${PORT}`))
