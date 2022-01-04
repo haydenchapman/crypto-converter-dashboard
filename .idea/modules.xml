@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/crypto_dashboard.iml" filepath="$PROJECT_DIR$/.idea/crypto_dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crypto-converter-dashboard.iml" filepath="$PROJECT_DIR$/.idea/crypto-converter-dashboard.iml" />
     </modules>
   </component>
 </project>
