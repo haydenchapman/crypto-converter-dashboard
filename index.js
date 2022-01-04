@@ -8,10 +8,6 @@ const app = express()
 
 app.use(cors())
 
-//app.get('/', (req,res) => {
-//    res.json('hi')
-//})
-
 app.get('/convert', (req,res) => {
     const toCurrency = req.query.to_currency
     const fromCurrency = req.query.from_currency
